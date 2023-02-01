@@ -34,11 +34,12 @@
     "solidity-coverage": "^0.7.13"
   },
   "dependencies": {
+    "@boringcrypto/boring-solidity": "boringcrypto/BoringSolidity#e06e943",
     "@glif/filecoin-address": "^2.0.18",
     "@nomicfoundation/hardhat-chai-matchers": "^1.0.0",
     "@nomicfoundation/hardhat-network-helpers": "^1.0.0",
     "@nomicfoundation/hardhat-toolbox": "^2.0.0",
-    "@openzeppelin/contracts": "^4.8.0",
+    "@openzeppelin/contracts": "^3.1.0",
     "@typechain/hardhat": "^6.1.2",
     "@zondax/filecoin-solidity": "^0.4.0-beta.1",
     "@zondax/filecoin-solidity-mock-api": "^0.2.0",
