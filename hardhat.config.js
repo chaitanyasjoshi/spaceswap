@@ -28,6 +28,14 @@ module.exports = {
             accounts: [PRIVATE_KEY],
         },
     },
+    namedAccounts: {
+        deployer: {
+            default: 0,
+        },
+        dev: {
+            default: 1,
+        },
+    },
     paths: {
         sources: "./contracts",
         tests: "./test",
